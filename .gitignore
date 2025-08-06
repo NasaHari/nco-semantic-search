@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+wheels/
+*.whl
+venv/
+.venv/
+env/
+.env
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Data and embeddings (ignore large files)
+data/raw/*
+!data/raw/.gitkeep
+embeddings/*
+!embeddings/.gitkeep
+
+# Misc
+.DS_Store
+Thumbs.db
+*.log
+*.tmp

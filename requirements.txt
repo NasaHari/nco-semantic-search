@@ -1,0 +1,11 @@
+torch>=2.0.0
+transformers>=4.30.0
+sentence-transformers>=2.2.2
+pandas>=2.0.0
+numpy>=1.24.0
+faiss-cpu>=1.7.4  # Use faiss-gpu if you have CUDA
+streamlit>=1.20.0
+pdfplumber>=0.10.0  # For PDF extraction
+pytest>=7.0.0
+black>=23.0.0
+flake8>=6.0.0
