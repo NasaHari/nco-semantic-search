@@ -1,0 +1,725 @@
+Code,QP_NOS Reference,QP_NOS Name,NSQF_Level
+1120.3401,MES/Q0207,Account Director (Advertising Agency),8
+1120.3402,MES/Q0201,Sales Director (Media Org),8
+1120.3500,ASC/Q6305,Quality Assurance Standards In Charge-Level 5,5
+1213.0102,ASC/Q0603,Area Service Manager,6
+1213.0202,ASC/Q0602,Territory Service Manager,5
+1213.9900,AMH/Q1603,Export Manager,5
+1219.0200,ASC/Q1006,Home Delivery Manager,6
+1221.0401,TEL/Q0204,Territory Sales Manager (Broadband),7
+1221.0501,TEL/Q0203,Territory Sales Manager (Prepaid),7
+1221.0601,MES/Q0204,Sales Co-ordinator (Media Org),4
+1221.0602,MES/Q0202,Sales Manager (Media Org),7
+1221.9900,ASC/Q6503,Manager Testing Facility Level 6,6
+1223.0102,ASC/Q6502,Manager Material Testing,5
+1223.0201,SSC/Q5301,Research Associate,8
+1311.0100,RSC/Q0932,Rubber Nursery Manager,6
+1311.1000,ASC/Q6302,Manager Supplier Quality Level 6,6
+1324.0102,ASC/Q6203,Manager Vendor Development Level 6,6
+1324.0200,LSC/Q2307,Warehouse Supervisor,5
+1324.1300,SSC/Q7102,Communication Analyst,5
+1330.0200,TEL/Q4102,Cluster Manager,6
+1330.9900,LFS/Q0203,Quality Control Chemist,5
+2113.0621,RSC/Q0315,Lab Chemist- Finished product testing,5
+2113.0622,RSC/Q0312,Lab Chemist- Incoming raw material testing,5
+2113.0623,RSC/Q0313,Lab Chemist- Compound testing – Batch Release,5
+2113.0624,RSC/Q0314,Lab Chemist-Cured compound testing,5
+2113.0800,LFS/Q0301,Quality Assurance Chemist,5
+2113.9900,SSC/Q2101,Associate-Analytics,7
+2120.9900,AMH/Q2001,Industrial Engineer (IE) Executive,6
+2141.0400,ELE/Q6201,PPC Engineer,5
+2141.0600,PSC/Q0115,Plumbing Site Engineer,7
+2142.0400,PSC/Q0205,Fire Protection Systems Design Engineer,7
+2142.0600,PSC/Q0206,Public Health System Design Engineer,8
+2142.1000,PSC/Q0202,Ground Water Engineer,7
+2142.1002,PSC/Q0207,Waste Water Systems Design,8
+2142.9900,ASC/Q6404,Process Design Engineer L6,6
+2144.0102,ASC/Q6406,Process Try-out Engineer L4,4
+2144.0103,ASC/Q6409,Process Try-out Technician,3
+2144.0104,ASC/Q6408,Process Validation Executive,5
+2144.0105,ASC/Q6407,"Manager, Process Engineering",7
+2144.0106,ASC/Q6505,Manager-Product Lifecycle Management Level 6,6
+2144.0200,CSC/Q0405,Designer- Mechanical,6
+2144.0300,ASC/Q6405,Equipment Designer L5,5
+2144.0401,ASC/Q5101,Product Conceptualization Engineer,6
+2144.0403,CSC/Q1201,Production Engineer,5
+2144.0500,CSC/Q0503,Service Engineer- Breakdown Service,5
+2144.0700,ASC/Q8301,Prototyping Engineer,6
+2144.0800,ASC/Q8103,Product Design Manager,7
+2144.0802,ASC/Q8101,Modeller,6
+2144.0803,ASC/Q8102,Product Design Engineer,6
+2144.0804,ASC/Q8302,Prototyping Manager,7
+2144.0900,ASC/Q6403,Layout Engineer Level 5,5
+2144.1302,ASC/Q6402,Industrial Engineer (Workstation Design),4
+2144.1401,CSC/Q0501,Service Engineer- Installation,4
+2144.1402,CSC/Q0502,Service Engineer – Installation and Commissioning,4
+2144.9900,ASC/Q3903,Manager Heat Treatment /Metallurgist,6
+2146.0600,ELE/Q8703,Design Engineer,4
+2151.0202,ELE/Q3801,Electrical Design Developer,4
+2151.0300,ELE/Q9101,LED Light Design Engineer,5
+2151.0404,ELE/Q9102,LED Light Design Validation Engineer,5
+2151.0601,ELE/Q8701,System Analyst (PCB Design),5
+2151.0602,ELE/Q8702,Systems Designer (PCB Design),5
+2151.0701,ELE/Q1601,Design-for- Manufacture Engineer,5
+2151.9900,ASC/Q5102,Computer Aided Test Executive,6
+2152.0400,ELE/Q1201,Design Engineer,5
+2152.0502,ELE/Q1402,Design-for-Test Engineer,5
+2152.0601,ELE/Q7901,Quality Engineer,5
+2152.0801,ELE/Q6102,Electronic Hardware Design Engineer,5
+2152.0901,ELE/Q1301,Verification Engineer,5
+2152.0902,ELE/Q1601,Testing and Validation Engineer,5
+2152.9900,TEL/Q2300,Telecom Terminal Equipment Application Developer (Android),4
+2153.0102,TEL/Q2301,Telecom Terminal Equipment Application (Native Applications),4
+2153.0200,MES/Q3402,Sound Engineer,4
+2153.0511,MES/Q3401,Sound Designer,5
+2153.0601,TEL/Q6201,Core Engineer,6
+2153.9900,G&J/Q2303,Hand Sketch Designer (Basic),4
+2163.0400,MES/Q0501,Art Director,5
+2166.0201,MES/Q0701,Animator,4
+2166.0202,MES/Q02501,Modeller,6
+2166.0203,MES/Q02502,Rigging Artist,4
+2166.0204,MES/Q02503,Texturing Artist,4
+2166.0205,MES/Q1302,Animation Director,5
+2166.0206,MES/Q0502,Character Designer,4
+2166.0207,MES/Q0506,clean-up Artist,3
+2166.0208,MES/Q3505,Compositor,4
+2166.0209,MES/Q0507,Storyboard Artist,3
+2166.0210,MES/Q3503,Rendering Artist,4
+2166.0211,MES/Q3501,VFX Editor,4
+2166.0212,MES/Q3504,Roto Artist,4
+2166.0300,G&J/Q2303,Designer(CAD),4
+2166.0501,MES/Q0503,Layout Designer,4
+2166.0511,MES/Q0505,Colour Key Artist,3
+2166.0512,MES/Q3502,Colourist,4
+2211.0100,HSS/Q2301,Emergency Medical Technician-Basic,4
+2240.0502,HSS/Q2302,Emergency Medical Technician- Advanced,5
+2240.9900,LFS/Q0202,Production Chemist,5
+2263.0100,SPF/Q1103,Sports Masseur,4
+2264.9900,HSS/Q5201,Dietician Assistant,4
+2265.0300,HSS/Q7601,Speech Language Pathologist and Audiologist,4
+2267.9900,SKS/Q0901,Certified Training Assessor,6
+2320.0102,SKS/Q0801,Physical Security Trainer,6
+2330.0100,SSC/Q0509,Master Trainer for Junior Software Developer,6
+2356.9900,SSC/Q2301,Associate- Transactional Finance and Accounting,7
+2411.0200,SSC/Q2302,Associate-Finance and Accounting Complex,7
+2411.0300,AGR/Q7701,Agriculture Field Officer,4
+2412.0600,SSC/Q2601,Analyst-Research,7
+2423.0100,SSC/Q2501,Associate- Recruitment,5
+2423.0200,ASC/Q0201,Sales Training Manager,6
+2424.0402,ASC/Q1109,Sales/Service Trainer (Dealer),6
+2424.0501,ASC/Q0802,Service Training Centre In charge,6
+2424.0502,ASC/Q0801,Field Service Trainer,5
+2424.9900,ASC/Q0701,Regional Service Marketing Manager,6
+2431.0102,ASC/Q0503,Product Brand Manager,6
+2431.0202,MES/Q0208,Account Executive (Advertising Agency),6
+2431.0300,SSC/Q6302,Market Research Associate,7
+2431.0502,SSC/Q6301,Management Trainee Sales Marketing/Business Development,8
+2431.0503,SSC/Q4102,Market Research Associate,7
+2431.0504,SSC/Q4101,Management Trainee – Product Marketing,8
+2431.0601,SSC/Q6501,Product Executive,7
+2431.0651,MES/Q0203,Sales Executive (Media Org),2
+2431.0671,MES/Q0205,Traffic Co-ordinator,4
+2431.0700,ASC/Q0501,Digital Marketing/Social Media Manager,6
+2432.0300,ELE/Q7202,Area Sales Officer,5
+2433.0201,LFS/Q0401,Medical Sales Representative,5
+2433.0301,ELE/Q7601,Sales Executive- Medical Electronics,5
+2433.0401,ELE/Q3201,Sales Executive- Consumer Electronics,4
+2433.0501,ELE/Q5601,Sales Executive- Solar Electronics,5
+2433.0601,ELE/Q1101,Business Development Executive,5
+2433.0700,SSC/Q1101,Sales and Pre-Sales Analyst,7
+2434.0201,SSC/Q6303,Sales/Pre-Sales Executive,7
+2511.0100,SSC/Q0301,Deployment Engineer,7
+2511.0102,SSC/Q7101,Engineer-Software Transition,7
+2511.0103,SSC/Q6901,Engineer-Packaging,7
+2511.0104,SSC/Q5201,Engineer-Product Lifecycle Management (PLM),7
+2511.0105,SSC/Q0701,Analyst,7
+2511.0106,SSC/Q4601,Software Engineer,7
+2512.0202,SSC/Q4901,Test Engineer- Software,7
+2512.0203,SSC/Q6601,Design Engineer,7
+2512.0204,SSC/Q0508,Junior Software Developer,4
+2512.0206,SSC/Q0507,Engineer Trainee – IT Services,7
+2512.0207,SSC/Q4202,Engineer Trainee – Engineering Analysis,7
+2512.0300,SSC/Q6702,Software Developer,7
+2512.0401,ELE/Q1501,Embedded Software Engineer,5
+2512.0601,SSC/Q4401,Design Engineer-EA,7
+2512.0701,SSC/Q0201,Application Maintenance Engineer,7
+2512.0800,SSC/Q0503,Web Developer,5
+2513.0201,SSC/Q0502,UI Developer,7
+2513.0301,SSC/Q6703,Media Developer,5
+2513.0302,SSC/Q1302,QA Engineer – IT Services,7
+2519.0302,SSC/Q1301,Test Engineer – IT Services,5
+2519.0401,SSC/Q7002,QA Engineer – Software Products,7
+2519.0402,SSC/Q7001,Test Engineer- Software Products 230 II A,5
+2519.0501,SSC/Q4801,Quality Engineer,7
+2521.0100,SSC/Q0401,Junior Data Associate,7
+2522.0100,SSC/Q0901,Security Analyst,7
+2523.0100,SSC/Q5001,Tester/Test Engineer-Hardware,7
+2523.0401,SSC/Q4201,Design Engineer,7
+2523.0501,SSC/Q4701,Hardware Engineer,7
+2523.9900,SSC/Q6201,IP Executive,7
+2611.1002,SSC/Q2902,Legal Associate,7
+2611.9900,SSC/Q2901,Document Coder/Processor,7
+2622.9900,MES/Q3001,Script Editor,7
+2641.0400,MES/Q3003,Script Researcher,5
+2641.0701,SSC/Q2701,Associate-Editorial,7
+2641.0801,SSC/Q2801,Associate-Learning,7
+2641.0901,SSC/Q6801,Technical Writer,5
+2641.0902,SSC/Q0505,Technical Writer,5
+2641.0903,SSC/Q4501,Technical Writer,7
+2641.9900,SSC/Q6802,Language Translator,7
+2643.0402,SSC/Q0506,Language Translator,7
+2643.9900,MES/Q0101,Voice-over Artist,4
+2656.0100,CON/Q0402,Assistant Laboratory and Field Technician,2
+3112.9900,ASC/Q6803,Maintenance Technician Electrical Level 4,4
+3113.0102,ASC/Q6804,Maintenance Technician Electrical Level 3,3
+3113.0111,ISC/Q1103,Technician Furnace Transformers: Ferro Alloys,4
+3113.0200,ELE/Q3701,Machine Maintenance Technician,4
+3113.0501,ELE/Q2501,Maintenance Executive,4
+3113.0601,ELE/Q4501,Maintenance Technician,4
+3113.0701,ELE/Q6501,Customer Inspection Technician,4
+3113.0801,ELE/Q5501,In-process and Final Quality Engineer,5
+3113.0802,ELE/Q5402,Final Testing Technician,4
+3113.0803,TEL/Q4101,Cluster In Charge,5
+3113.1001,ELE/Q9301,LED Luminaries Testing and Measurement,4
+3113.1002,ELE/Q9302,Led Light Repair Technician,4
+3113.9900,TEL/Q6200,BSS Support Engineer,6
+3114.0701,TEL/Q6202,Field Maintenance Engineer,3
+3114.0801,TEL/Q6205,ICT Engineer,6
+3114.0802,TEL/NQ6206,ICT Technician,4
+3114.0804,TEL/Q0102,Broadband Technician,4
+3114.0901,TEL/Q6301,Installation Engineer-L2 & L3,5
+3114.0902,TEL/Q6300,Installation Engineer-SDH & DWDM,5
+3114.1101,TEL/Q6204,Product Specialist Engineer,5
+3114.1201,TEL/Q6203,Transmission Engineer,6
+3114.1301,TEL/Q6302,Network Management Engineer,5
+3114.9900,ASC/Q6504,Supervisor R&D Testing,5
+3115.0102,ASC/Q6802,Maintenance Technician- Mechanical Level 4,4
+3115.0103,ASC/Q6805,Maintenance Technician- Mechanical Level 3,3
+3115.0104,ASC/Q1413,Body Shop In Charge,7
+3115.0105,ASC/Q1606,Workshop Manager,8
+3115.0201,ASC/Q8405,Testing Manager,7
+3115.0202,ASC/Q8403,Test Engineer Product/Vehicle,6
+3115.0301,ASC/Q6501,"Executive, Proto Manufacturing",4
+3115.0401,ASC/Q6401,Method Study Executive,5
+3115.0501,ASC/Q6801,Manager Maintenance Mechanical & Electrical Level 5,5
+3115.0601,ASC/Q1403,Auto Service Technician Level 5,5
+3115.0602,ASC/Q1404,Auto Service Technician Level 6,6
+3115.1000,ASC/Q4001,Tool Designer,5
+3115.1302,ASC/Q4102,Tool Room Supervisor,5
+3115.1400,PSC/Q0201,Plumbing Draftsman,5
+3118.0300,ELE/Q7101,Draftsman,5
+3118.0302,ELE/Q1401,Physical Design Engineer,5
+3118.0401,ASC/Q8201,Draughtsman,4
+3118.0402,ASC/Q4403,Plastic Moulding Shop Supervisor,5
+3122.2300,ASC/Q4404,Plastic Moulding Shift In Charge,6
+3122.2400,AMH/Q2101,Production Supervisor-Sewing,6
+3122.3600,ASC/Q3207,Casting Line In charge,6
+3122.4402,ASC/Q4503,Forging Shop Shift In charge,6
+3122.4502,ASC/Q4502,Forging Shop Supervisor,5
+3122.4601,ASC/Q3405,Press Shop Shift In Charge,6
+3122.4602,ASC/Q3105,Welding Machine Setter,6
+3122.4702,ASC/Q3104,Welding Supervisor,5
+3122.4900,G&J/Q2606,Wax Model Making Supervisor,5
+3122.6502,G&J/Q2303,Product Development Manager,4
+3122.6503,G&J/Q4202,Planning Supervisor,4
+3122.6504,G&J/Q4404,Blade Sawing Supervisor,5
+3122.6505,G&J/Q4404,Laser Supervisor,5
+3122.6506,G&J/Q4505,Bruting Supervisor,3
+3122.6507,G&J/Q4606,Blocking Supervisor 354 II A,3
+3122.6508,G&J/Q4707,Polishing Supervisor,3
+3122.6509,G&J/Q4909,Final Assortment Supervisor,5
+3122.6511,G&J/Q6707,Supervisor Faceting and Polishing,3
+3122.6600,PSC/Q0114,Plumbing Supervisor,6
+3123.0400,ASC/Q3306,Painting and Surface Treatment Line In Charge,6
+3123.0700,ASC/Q3305,Painting Supervisor,5
+3127.9900,ISC/Q1104,Shift In Charge Furnace Ferro Alloys,5
+3135.1700,ISC/Q0603,Fluid Management Operator Rolling Mills,4
+3135.2002,ISC/Q0701,Process Operator Rolling Mills,5
+3135.2003,ISC/Q0602,Coil Packaging Machine Operator Rolling Mills,3
+3135.2300,ASC/Q3902,Heat Treatment Shop Supervisor,5
+3135.3100,ASC/Q3701,Auto Component Assembly Fitter,4
+3139.2001,ELE/Q6305,Assembly Supervisor,5
+3139.5001,ASC/Q6301,Quality Control Inspector-Level 3,3
+3139.5002,ASC/Q1605,Quality Controller,6
+3139.9900,AGR/Q0301,Micro Irrigation Technician,4
+3142.0201,AGR/Q7801,Bare Foot Technician,4
+3142.9900,HSS/Q0201,Radiology Technician,4
+3211.0200,HSS/Q5601,Medical Equipment Technician,4
+3211.0801,HSS/Q2601,Operation Theatre Technician,4
+3212.0201,HSS/Q2701,Dialysis Technician,4
+3212.0301,HSS/Q2501,Anaesthesia Technician,4
+3212.0501,HSS/Q0401,Histo-Technician 404 II A,4
+3212.0601,HSS/Q0501,Phlebotomy Technician,4
+3212.0602,HSS/Q2801,Blood Bank Technician,4
+3212.0701,HSS/Q0301,Medical Laboratory Technician,4
+3212.9900,HSS/Q8701,Diabetes Educator,4
+3253.0201,HSS/Q8601,Frontline Health Worker (Equivalent to ASHA),3
+3253.9900,HSS/Q7701,Assistant Physiotherapist,4
+3256.0101,HSS/Q3002,Refractionist,4
+3256.0202,ASC/Q2101,Sales Officer (Auto Insurance),5
+3321.0102,ASC/Q2001,Sales Consultant (Auto Finance),4
+3321.0200,ASC/Q1801,Sales Representative,5
+3322.0200,ASC/Q0606,Regional Parts Manager,6
+3322.0801,ASC/Q0607,Regional Manager-Customer Care,6
+3322.1201,ASC/Q1002,Sales Consultant (Institutional Sales),5
+3322.1303,ASC/Q1005,Sales Consultant (Retail) Level 5,5
+3322.1304,ASC/Q1005,Sales Consultant Level 4,4
+3322.1305,G&J/Q8304,Floor Manager,5
+3322.1306,G&J/Q6201,Store Manager,6
+3322.1400,ASC/Q1412,Service Supervisor,7
+3322.2502,ASC/Q1602,Service Advisor,6
+3322.2503,ASC/Q0902,Service Office Manager,5
+3322.2504,ASC/Q0901,Service Office Executive,4
+3322.4001,PSC/Q0302,Plumbing Products Sales Officer,3
+3322.5002,PSC/Q0303,Plumber Aftersales Service,3
+3322.6001,AMH/Q1601,Export Assistant,4
+3322.9900,G&J/Q8202,Merchandiser,6
+3323.0102,AMH/Q0901,Merchandiser,5
+3323.0200,ELE/Q7701,Purchase Executive,4
+3323.0501,ELE/Q5701,Purchase Executive- Solar,5
+3323.0601,AGR/Q7801,Supply Chain Field Assistant,4
+3323.9900,SPF/Q1101,Sports Coach,7
+3422.0300,SPF/Q1102,Fitness Trainer,4
+3423.0200,SPF/Q1104,Lifeguard,4
+3423.9900,PSC/Q0204,Bathroom and Kitchen Designer,6
+3432.9900,SSC/Q2213,Domestic Biometric Data Operator,4
+3512.0100,SSC/Q0110,Domestic IT Helpdesk Attendant,4
+3512.0200,SSC/Q2702,Associate-Desktop Publishing (DTP),7
+3514.0300,ELE/Q4302,Disk Duplicator,4
+3512.0501,ELE/Q4701,IT Co-ordinator in School,4
+3512.0601,SSC/Q2401,Associate-Clinical Data Management,7
+3512.0700,SSC/Q2402,Associate-Medical Transcription,7
+3512.0801,SSC/Q0101,Engineer-Technical Support (Level 1),5
+3512.9900,SSC/Q0801,Infrastructure Engineer,5
+3513.9900,MES/Q3403,Sound Assistant,3
+3521.0501,MES/Q1401,Editor,4
+3521.0511,MES/Q3404,Sound Editor,4
+3521.0600,G&J/Q4303,Data Entry Person,2
+4132.0402,SSC/Q2212,Domestic Data Entry Operator,4
+4132.0600,RAS/Q0102,Cashier (Retail),2
+4211.0302,G&J/Q8301,Cashier,4
+4211.0400,BSC/Q0701,Debt Recovery Agent,4
+4214.9900,SSC/Q7201,Technical Support Executive-Non Voice,5
+4222.0102,SSC/Q7202,Technical Support Executive-Voice,5
+4223.0100,ASC/Q1103,Showroom Hostess /Host,3
+4311.0101,BSC/Q1001,Accounts Executive (Recording and Reporting),4
+4311.0200,BSC/Q0901,Accounts Executive (Accounts Payable & Receivables),4
+4311.0500,RSC/Q0934,Rubber Nursery Office Assistant,4
+4311.9900,BSC/Q1201,Accounts Executive (Payroll),4
+4313.0201,BSC/Q1101,Accounts Executive (Statutory Compliance),4
+4321.0100,ASC/Q1501,Spare Parts Operations Executive Level 3,3
+4321.0102,LSC/Q2108,Inventory Clerk,3
+4321.0103,G&J/Q8402,Inventory Manager,4
+4321.0104,RSC/Q0104,Storage Assistant,3
+4321.0200,ELE/Q3401,Material Inspector 507 E II A,4
+4321.0302,ELE/Q6401,Incoming Inspection Technician,3
+4321.0401,ASC/Q6104,Manager-Stores Operation Level 5,5
+4321.0402,ASC/Q1503,Spare Parts Operations In Charge,7
+4321.0501,RAS/Q0101,"Store Ops, Assistant Store Ops 508 E II A",1
+4321.0601,LSC/Q2102,Warehouse Picker,3
+4321.0602,LSC/Q2105,Warehouse Binner,3
+4321.0603,LSC/Q2303,Warehouse Packer,3
+4321.0604,LSC/Q2304,Kitting and Labelling Executive,2
+4321.0701,ASC/Q1603,Warranty Processor,4
+4321.9900,G&J/Q7102,Inventory Manager (Wholesale) 510 E II A,4
+4322.0201,RSC/Q0831,Junior Rubber Technician/Technica l Assistant,3
+4323.0100,SSC/Q2502,Associate-HRO,7
+4419.0100,BSC/Q0301,Business Correspondent,3
+4419.0200,THC/Q0301,Food & Beverage Service-Steward,3
+5131.0500,BWS/Q0201,Assistant Hair Stylist,3
+5141.0300,BWS/Q0101,Assistant Beautician,3
+5142.0200,BWS/Q0102,Pedicurist and Manicurist,2
+5142.0300,ASC/Q9708,Commercial Vehicle Driver Trainer,5
+5211.0100,ASC/Q1010,Sales Executive- Dealership,3
+5211.0302,ASC/Q1105,Telecaller,4
+5211.9900,ASC/Q0605,Area Parts Manager(APM),5
+5222.0201,G&J/Q0202,Order Processor,3
+5223.0102,G&J/Q8302,Jewellery Retail Sales Associate (Basic),4
+5223.0103,G&J/Q8303,Jewellery Retail Sales Associate (Advanced),5
+5223.0104,PSC/Q0301,Plumbing Products Sales Assistant,2
+5223.0105,RAS/Q0103,Trainee Associate,3
+5241.0100,ASC/Q0601,Area Technical Lead,6
+5242.0102,RAS/Q0104,Sales Associate,4
+5242.0201,TEL/Q0101,Customer Care Executive (Relationship Centre),4
+5242.0301,TEL/Q2200,Customer Care Executive (Repair Centre),4
+5242.0401,TEL/Q2101,In-Store Promoter,4
+5242.0501,SSC/Q5101,Associate Operations Engineer,5
+5242.9900,TEL/Q2100,Distributor Sales Representative,4
+5243.0501,TEL/Q0200,Field Sales Executive (FSE),4
+5243.0502,TEL/Q0201,Sales Executive (Broadband),4
+5243.9900,SSC/Q2202,Associate-CRM,5
+5244.0103,ASC/Q1106,Customer Relation Executive,4
+5244.0201,SSC/Q2211,CRM Domestic Non Voice,4
+5244.0202,SSC/Q2201,Associate Customer Care (Non Voice) 558 E II A,5
+5244.0203,SSC/Q2214,Collections Executive,4
+5244.0301,ELE/Q4603,Customer Care Executive,3
+5244.0302,ELE/Q4604,Remote Helpdesk Technician,3
+5244.0303,TEL/Q0100,Customer Care Executive (Call Centre),4
+5245.0101,ASC/Q9604,Fuel Service Man/Fuel Dispensing Attendant,2
+5249.0101,ASC/Q0604,Key Account Service Manager 560 E II A,6
+5249.0200,ASC/Q0204,Commercial Manager (Zonal/Regional),6
+5249.0202,ASC/Q0203,Commercial Executive/Officer,5
+5249.0301,ELE/Q3202,In-Store Demonstrator,3
+5249.0400,HSS/Q5102,Home Health Aide,3
+5322.9900,HSS/Q5101,General Duty Assistant,3
+5411.0100,SKS/Q0601,Security Officer,6
+5414.0102,SKS/Q0701,Assignment Manager,6
+5414.0111,SKS/Q0301,Security Supervisor,5
+5414.0121,SKS/Q0501,CCTV Supervisor,5
+5414.0151,SKS/Q0201,Armed Security Guard,4
+5414.0171,SKS/Q0401,Personal Security Officer,5
+5414.0200,SKS/Q0101,Unarmed Security Guard,4
+6111.0100,AGR/Q0101,Paddy Farmer,4
+6111.0200,AGR/Q0102,Wheat Cultivator,4
+6111.0301,AGR/Q0103,Maize Cultivator,4
+6111.0401,AGR/Q0104,Pulses Cultivator,4
+6111.0501,AGR/Q0201,Soya bean Cultivator,4
+6111.0601,AGR/Q0202,Cotton Cultivator,4
+6111.0701,AGR/Q0203,Sugarcane Cultivator,4
+6111.0800,AGR/Q0503,Coconut Grower,4
+6111.0852,AGR/Q0504,Friends of Coconut Tree,3
+6111.0901,AGR/Q0201,Banana Farmer,4
+6111.1001,AGR/Q0402,Mango Grower,4
+6111.1101,AGR/Q0403,Citrus Fruit Grower,4
+6111.1200,AGR/Q0501,Bulb Crop Cultivator,4
+6111.1501,AGR/Q0502,Solanaceous Crop Cultivator,4
+6111.1601,AGR/Q0503,Tuber Crop Cultivator,4
+6111.1801,AGR/Q0901,Chillies Cultivator,4
+6111.1901,AGR/Q0902,Coriander Cultivator,4
+6111.2000,AGR/Q0505,Neera Technician,4
+6112.0300,AGR/Q0204,Tea Plantation Worker,2
+6112.0601,AGR/Q0203,Coffee Plantation Worker,2
+6112.0701,AGR/Q1101,Bamboo Grower,4
+6112.0801,RSC/Q0935,Rubber Nursery Worker-Budder,4
+6112.0802,RSC/Q0936,Rubber Nursery Worker-General,4
+6112.9900,AGR/Q0202,Gardener,4
+6113.0400,AGR/Q7602,Agriculture Extension Executive,6
+6116.0102,AGR/Q7603,Community Service Provider,3
+6121.0100,AGR/Q4301,Broiler Farm Supervisor,5
+6122.0200,AGR/Q4302,Broiler Farm Worker,3
+6122.0401,AGR/Q4401,Hatchery In Charge VOLUM Divison 6,5
+6122.9900,AGR/Q4801,Bee-keeper,3
+6123.0201,AGR/Q4701,Sericulturist,4
+6123.9900,AGR/Q7101,Quality Seed Grower,4
+6130.0202,AGR/Q7102,Seed Processing Worker,3
+6130.9900,AGR/Q4902,Shrimp Farmer,4
+6221.0102,AGR/Q4901,Hatchery Production Worker,5
+6222.0100,AGR/Q5001,Marine Capture Fisherman,4
+6223.9900,PSC/Q0106,Plumbing Mason VOLUM Divison 7,3
+7112.0300,CON/Q0102,Assistant Mason,2
+7112.9900,CON/Q0302,Assistant Shuttering Carpenter,2
+7115.0300,CON/Q0303,Assistant Scaffolder,2
+7119.9900,PSC/Q0104,Plumber (General),3
+7126.0102,PSC/Q0108,Plumber (Operations),3
+7126.0103,PSC/Q0110,Plumber (General)-II,4
+7126.0104,PSC/Q0101,Plumber (General) Helper,1
+7126.0105,PSC/Q0102,Plumber (General) Assistant,2
+7126.0106,PSC/Q0109,Plumber (Maintenance & Servicing) Assistant,2
+7126.0107,PSC/Q0112,Plumber (Maintenance & Servicing),3
+7126.0201,PSC/Q0107,Plumber Pipeline,3
+7126.0301,PSC/Q0108,Plumbing (Sanitary Fixtures) Fitter Assistant,3
+7126.0400,CON/Q0502,Assistant Painter and Decorator,2
+7131.0200,CSC/Q0702,Painting Technician (Spray Painting),2
+7132.0202,ASC/Q3303,Auto Body Painting Technician –L 3,3
+7132.0204,ASC/Q3402,Press Shop Operator Level 4,4
+7211.0102,ASC/Q3401,Press Shop Assistant/Helper,2
+7211.0200,ASC/Q3205,Casting Technician- Sand Moulding,4
+7211.0300,PSC/Q0103,Plumber (Welder) Assistant,2
+7212.0105,ASC/Q1902,Repair Welder,4
+7212.0200,ASC/Q3103,Welder Level 4,4
+7212.0302,ASC/Q3102,Welding Technician Level 3 ME II B  77,3
+7212.0303,CSC/Q0209,Metal Inert Gas/Metal Active Gas/Gas Metal Arc Welder (MIG/MAG/GMAW),4
+7212.0400,ISC/Q0806,Iron & Steel Plasma Cutter,4
+7212.0500,ASC/Q4201,Soldering and Brazing Operator,4
+7212.0600,ASC/Q3101,Welding Assistant,2
+7212.9900,CSC/Q0301,Sheet Metal Worker – Hand Tools and Manually Operated Machines,2
+7213.0200,CON/Q0202,Assistant Bar Bender and Fixer,2
+7214.9900,ISC/Q0817,Rigger: Rigging of Heavy Material,3
+7215.0200,ASC/Q4501,Forging Operator,4
+7221.0400,ASC/Q3603,Assembly Line Machine Setter,6
+7223.0500,ASC/Q3506,Machine Shop Master Technician/Setter,6
+7223.0502,ASC/Q3505,Machine Shop Supervisor,5
+7223.0601,CSC/Q0110,Conventional Turning,2
+7223.0700,ASC/Q1901,Lathe Operator,4
+7223.0800,CSC/Q0108,Operator– Conventional Milling,2
+7223.1300,CSC/Q0107,Boring Machine,2
+7223.1800,ASC/Q3503,Machining Technician/CNC Operator L4,4
+7223.5002,ASC/Q3501,CNC Operator- Machining Technician L3,3
+7223.5003,ASC/Q1903,CNC Operator,4
+7223.5004,CSC/Q0116,CNC Operator- Vertical Machining Centre,3
+7223.5005,CSC/Q0123,CNC Operator- Vertical Machining Centre,4
+7223.6001,CSC/Q0115,CNC Operator- Turning,3
+7223.6003,CSC/Q0401,CNC Programmer,4
+7223.9900,CSC/Q0303,Fitter-Fabrication,2
+7224.0200,CSC/Q0302,Grinder – Hand held and Power Tools,3
+7224.0402,CSC/Q0109,Operator- Conventional Surface Grinding Machines,2
+7224.0500,ASC/Q4301,Super Finishing Technician,4
+7224.0801,CSC/Q0113,Polisher – Machine,2
+7224.0900,ASC/Q1601,Maintenance Technician-Service Workshop,4
+7231.0102,ASC/Q1409,AC Specialist,4
+7231.0103,ASC/Q1410,Automotive Body Technician Level 3,3
+7231.0104,ASC/Q1405,Automotive Body Technician Level 4,4
+7231.0105,ASC/Q1414,Brake Specialist,4
+7231.0106,ASC/Q1415,Clutch Specialist,4
+7231.0107,ASC/Q/8401,Test Technician,4
+7231.0300,MIN/Q0406,Mechanic/Fitter,3
+7231.0500,ASC/Q1411,Auto Service Technician (Two and Three Wheelers),4
+7231.0900,CSC/Q0213,Maintenance Fitter- Mechanical,4
+7233.0102,ISC/Q0802,Iron & Steel- Machinist,3
+7233.0121,ISC/Q0814,"Fitter Levelling, Alignment & Balancing",3
+7233.0200,ISC/Q0816,Bearing Maintenance,3
+7233.0400,ISC/Q0812,Belt Conveyor Maintenance,3
+7233.0402,ISC/Q0008,Conveyor Operation and Maintenance,3
+7233.0600,ISC/Q0815,Mobile Equipment Maintenance,3
+7233.0800,PSC/Q0111,Plumber (Pumps & E/M Mechanic),4
+7233.1400,AMH/Q1901,Machine Maintenance Mechanic-Sewing Machine,5
+7233.1900,ISC/Q0810,Fitter: Hydraulic and Pneumatic System VOLUM Divison 7,4
+7233.9900,CSC/Q0802,Technician Instrumentation VOLUM Divison 7,4
+7311.0200,ISC/Q0903,Iron & Steel Fitter Instrumentation,3
+7311.0500,CSC/Q0801,Calibration Technician,4
+7311.1002,ELE/Q8002,Calibration Engineer,4
+7311.1100,G&J/Q3010,Jewellery Polisher,3
+7313.0102,G&J/Q3212,Plater,4
+7313.0103,G&J/Q2909,Filer and Assembler,3
+7313.0201,G&J/Q0606,Component Maker,3
+7313.0202,G&J/Q6909,Gem Stone Thread Maker,2
+7313.0301,G&J/Q3414,Gold Refiner,6
+7313.0401,G&J/Q0404,Gold Melter and Refiner,7
+7313.0500,G&J/Q0707,Polisher and Cleaner,3
+7313.0702,G&J/Q0909,Goldsmith: Enameller,4
+7313.0703,G&J/Q0606,Goldsmith Frame Maker,3
+7313.0801,G&J/Q0808,Setter,3
+7313.0802,G&J/Q3111,Metal Setter (Basic),3
+7313.0803,G&J/Q2707,Wax Setter,3
+7313.0804,G&J/Q2606,Wax Tree Maker,5
+7313.0901,G&J/Q0809,Sorter,3
+7313.0902,G&J/Q4101,Rough Assorter,4
+7313.0903,G&J/Q4101,Rough Marker ME II B  156,4
+7313.1001,G&J/Q6505,Gemstone Rough Cutter,3
+7313.1101,G&J/Q4404,Gem Cleaver,5
+7313.1201,G&J/Q4202,Inclusion Plotter,4
+7313.1202,G&J/Q4202,Planner,4
+7313.1300,G&J/Q4505,Manual Bruter,3
+7313.1302,G&J/Q4606,Auto Blocker,3
+7313.1303,G&J/Q6707,Gemstone Facet Maker,3
+7313.1304,G&J/Q4606,Table Cutter,3
+7313.1305,G&J/Q4606,Manual Blocker,3
+7313.1306,G&J/Q4505,Auto Bruter,3
+7313.1400,G&J/Q2505,Diamond Assorter,4
+7313.1502,G&J/Q4909,Polished Grader and Assorter (Basic),5
+7313.1503,G&J/Q4909,Polished Diamond Grader & Assorter (Advance),5
+7313.1504,G&J/Q4707,Bottom Polisher,3
+7313.1505,G&J/Q6707,Gemstone Girdle Polisher,3
+7313.1506,G&J/Q6707,Gemstone Polisher,3
+7313.1601,G&J/Q6606,Gemstone Pre- shaper,4
+7313.1602,G&J/Q6606,Gemstone Final Shaper and Calibrator,4
+7313.1701,G&J/Q6808,Gem Driller,2
+7313.1702,G&J/Q4101,Window Opener,4
+7313.1800,G&J/Q2606,Rubber Mould Maker,5
+7313.2402,G&J/Q2606,Wax Piece Maker,5
+7313.2501,G&J/Q4808,Boiling In Charge,2
+7313.2601,G&J/Q1010,Final Quality Inspector,5
+7313.9900,ELE/Q2101,Circuit Imaging Operator,4
+7321.0802,ELE/Q2201,Circuit Imaging Operator-Photo Imaging,4
+7321.0900,ELE/Q4605,CCTV Installation Technician,4
+7411.0200,ELE/Q7302,Wireman-Control Panel,3
+7411.0500,ASC/Q6807,Automation Specialist,5
+7412.0102,ELE/Q6602,In-circuit Testing Machine Operator,4
+7412.0103,ELE/Q6601,Automated Optical Inspection Operator,4
+7412.0104,ELE/Q2401,Bare Board Testing Operator,4
+7412.0200,CSC/Q0402,Fitter-Electrical and Electronic Assembly,3
+7412.0202,ELE/Q6302,Mechanical Fitter,4
+7412.0203,ISC/Q0901,Iron & Steel: Fitter Electrician Assembly,#N/A
+7412.0701,ASC/Q1408,Automotive Electrician,4
+7412.0801,ASC/Q6806,Maintenance Assistant/Helper,2
+7412.0901,ELE/Q6603,Potting and Curing Operator,4
+7412.1001,ELE/Q7303,Mechanical Fitter- Control Panel,3
+7412.1002,ELE/Q7501,Site Engineer- Control Panel,4
+7421.0101,ISC/Q0902,Iron & Steel_Fitter_Electro nic Assemble,#N/A
+7421.0401,ELE/Q3102,Field Technician: Air Conditioner,4
+7421.0501,ELE/Q3101,Field Technician: Refrigerator,4
+7421.0601,ELE/Q3103,Field Technician: Washing Machine,4
+7421.0701,ELE/Q3104,"Field Technician, Other Home Appliances",4
+7421.0801,ELE/Q7201,Field Technician: UPS and Inverter,4
+7421.0901,ELE/Q3107,"Field Technician, Digital Camera",4
+7421.1001,ELE/Q3105,Field Engineer- RAWC,4
+7421.1101,ELE/Q8103,Repair Assistant: Switches,4
+7421.1201,ELE/Q0103,Auto-tester Capacitor,4
+7421.1202,ELE/Q0111,Testing Technician- Passive components,4
+7421.1301,ELE/Q3108,Field Engineer TV,4
+7421.1401,ELE/Q5901,Solar Panel Installation Technician,4
+7421.1402,ELE/Q5902,Solar PV System Installation Engineer,5
+7421.1403,ELE/Q6001,PV System Installation Engineer,4
+7421.9900,TEL/Q6500,Fault Management Engineer,5
+7422.0202,TEL/Q6202,Grass Root Telecom Provider (GRTP),3
+7422.0203,TEL/Q2201,Handset Repair Engineer (Level II),4
+7422.0204,TEL/Q6100,Infrastructure Engineer,5
+7422.0400,TEL/Q6401,Optical Fibre Technician,4
+7422.0802,TEL/Q6400,Optical Fibre Splicer,3
+7422.0900,ELE/Q8001,Installation and Service Engineer,4
+7422.1100,ELE/Q8101,Set Top Box Installer/Service Technician,4
+7422.1202,ELE/Q8101,DTH Set-top Box Installer and Service Technician,4
+7422.1203,ELE/Q8102,DAS Set-top Box Installer and Service Technician,4
+7422.1300,ELE/Q3101,Television Repair Technician,4
+7422.1400,TEL/Q4103,R F Site Surveyor,4
+7422.1901,ELE/Q4301,Assembly Line Operator,4
+7422.2001,ELE/Q4601,Field Technician (Computing and Peripherals),4
+7422.2002,ELE/Q4609,Installation (Computing and Peripherals),3
+7422.2101,ELE/Q4606,Field Technician (Networking and Storage),4
+7422.2201,ELE/Q4602,Test and Repair Technician,4
+7422.2301,ELE/Q8104,Smartphone Repair Technician,4
+7422.3001,TEL/Q4100,Tower Technician,4
+7531.0101,AMH/A0701,Sampling Tailor,#N/A
+7532.0901,AMH/Q1501,Garment Cutter,4
+7532.0902,AMH/Q1101,Advance Pattern Maker (CAD/CAM),6
+7532.0903,AMH/Q0201,Layer Man,3
+7532.1000,LSS/Q6103,Cutter (Goods and Garments),4
+7532.1100,AMH/Q0101,Fabric Checker,4
+7543.0201,AMH/Q1401,QC Executive- Sewing Line,5
+7543.0202,AMH/Q1701,Quality Assessor,5
+7543.0300,AMH/Q0103,Measurement Checker,4
+7543.0302,AMH/Q0102,In-Line checker,3
+7543.0400,ELE/Q4401,Incoming QC Technician,5
+7543.0702,ELE/Q4402,Final Product QC Technician,4
+7543.0801,ELE/Q7401,Functional Tester,3
+7543.0802,ELE/Q7402,Performance Tester,4
+7543.0803,ELE/Q7404,Reliability Tester,3
+7543.0804,ELE/Q7403,Safety Testing Technician,3
+7543.0901,ELE/Q7803,Functional Tester- Medical Devices,4
+7543.1001,ELE/Q3601,Functional Tester- RAC,4
+7543.1002,ELE/Q3602,Functional Tester- TV,4
+7543.1003,ELE/Q3603,Safety Testing Technician-TV,3
+7543.1004,ELE/Q3605,Safety Testing Technician-RACWO,3
+7543.1005,ELE/Q3606,Performance Tester-RACW,4
+7543.1006,ELE/Q3607,Performance Tester-TV,4
+7543.1101,ELE/Q1801,Testing Technician- Active components,4
+7543.2001,CSC/Q0601,"Quality Inspector-forged, casted or machined components",#N/A
+7543.3001,RSC/Q0730,Quality Control Inspector-Calendering,#N/A
+7543.3002,RSC/Q0418,Quality Control InspectorDimension check,#N/A
+7543.3003,RSC/Q0624,Quality control Inspector-Extrusion,5
+7543.3004,RSC/Q0416,Quality Control Inspector-Statistical process control,#N/A
+7543.3005,RSC/Q0417,Quality Control Inspector-Visual Inspection,#N/A
+7543.4001,AMH/Q2201,Factory Compliance Auditor,#N/A
+7543.5001,AMH/Q1801,Sampling Coordinator,#N/A
+8111.0500,ASC/Q3201,Casting or Foundry Assistant/Helper,2
+8121.3701,ASC/Q3901,Heat Treatment Technician/Furnace Operator,4
+8121.3801,ASC/Q3202,Casting Technician L3,3
+8121.4200,ASC/Q3204,Pressure Die Casting Operator (PDC),4
+8121.4300,ASC/Q3801,Surface Treatment Technician Level 4,4
+8122.2000,RSC/Q0210,Autoclave Operator,4
+8131.3600,RSC/Q0101,Mill Operator,4
+8131.6300,RSC/Q0729,Pre and Post Calendering Operator ME II B  369,4
+8141.0200,RSC/Q0623,Feed Extruder Operator,4
+8141.0302,ELE/Q3501,Injection Moulding Machine Operator,4
+8142.0502,LSS/N9101,Moulding Operator,4
+8142.0503,ELE/Q1703,Encapsulation Operator,4
+8142.0600,ASC/Q4401,Plastic Moulding Technician or Operator,4
+8142.1400,AMH/Q0301,Sewing Machine Operator,4
+8153.0102,AMH/Q0801,Embroidery Machine Operator (Zigzag Machine),4
+8153.0701,AMH/Q1301,Framer- Computerised Embroidery Machine,4
+8153.0702,LSS/Q6102,Helper-Parts Making (Leather Goods & Garments),2
+8153.0703,LSS/Q6201,Helper – Finishing Operation (Leather Goods & Garments),2
+8153.9900,LSS/Q0601,Fleshing Operator VOLUM Divison 8,4
+8155.0300,LSS/Q0801,Splitting and Sammying Operator,4
+8155.0601,LSS/Q0301,Shaving Operator,4
+8155.0700,LSS/Q0201,Buffing Operator,4
+8155.0900,LSS/Q0701,Drum Operator,4
+8155.1102,LSS/Q0901,Post Tanning Machine Operator,4
+8155.1200,LSS/Q0401,Helper-Wet Operations (Multiskilled),2
+8155.1202,LSS/Q0101,Helper-Dry Operations (Finished Leather),2
+8155.1203,LSS/Q3201,Cutter (Footwear),4
+8156.0800,LSS/N3501,Stitching Operator (Footwear),4
+8156.1001,LSS/N3701,Skiving Operator,4
+8156.1401,LSS/N3801,Lasting Operator,4
+8156.1500,LSS/N3601,Pre-Assembly Operator,4
+8156.2600,LSS/Q3301,Helper – Bottom Making (Footwear),2
+8156.2602,LSS/Q3101,Helper – Upper Making (Footwear),2
+8156.2603,AMH/Q0401,Pressman,4
+8159.0100,G&J/Q2404,CAM Machine Operator,4
+8189.0401,G&J/Q4404,Laser Sawing Machine Operator,5
+8189.0405,G&J/Q4404,Blade Sawyer,5
+8189.0501,G&J/Q2808,Casting Machine Operator,4
+8189.0601,G&J/Q4202,Pantograph Machine Operator,4
+8211.0100,ELE/Q6304,Mechanical Sub- Assembly Technician,4
+8211.0200,ASC/Q3601,Vehicle Assembly Fitter,4
+8211.1202,CSC/Q0304,Fitter-Mechanical Assembly,3
+8211.1300,ELE/Q0115,"Cutting, Crimping and Connector Assembly Operator",3
+8212.0402,ELE/Q7306,Electrical Assembly Operator,3
+8212.0500,ELE/Q3501,RAC Assembly Operator,4
+8212.1401,ELE/Q3502,Assembly Operator- TV,4
+8212.1501,ELE/Q5305,Manual Insertion Operation,3
+8212.1602,ELE/Q5101,Through Hole Assembly Operator,3
+8212.1603,ELE/Q5102,Pick and Place Assembly Operator,4
+8212.1604,ELE/Q5304,Reflow-oven Soldering Operator,3
+8212.1605,ELE/Q5201,Stencil Printing Operator,3
+8212.1606,ELE/Q5202,Component Preparation Operator,3
+8212.1607,ELE/Q5306,Box-building Assembly Technician,3
+8212.1701,ELE/Q1702,Wire Bonding Operator,4
+8212.1702,ELE/Q1701,Die Bonding Operator,4
+8212.1801,ELE/Q0113,Assembly Operator Capacitor,4
+8212.1802,ELE/Q0101,Winding Operator,4
+8212.1803,ELE/Q0104,Vacuum Plant Operator,3
+8212.1804,ELE/Q0110,"Coating, Curing and Marking Operator",4
+8212.1805,ELE/Q0116,Masking Machine Operator,3
+8212.1806,ELE/Q0106,Pressing Machine Operator,3
+8212.1807,ELE/Q0105,Manual Soldering Technician,3
+8212.1808,ELE/Q5303,Wave Soldering Machine Operator,3
+8212.1901,ELE/Q0102,Welding Operator,4
+8212.1902,ELE/Q0108,Silicone Painting Operator,3
+8212.1903,ELE/Q0109,Sorting Operator,4
+8212.1904,ELE/Q0107,Capping Machine Operator,3
+8212.2001,ELE/Q7304,Energy Meter Assembly Operator,3
+8212.2002,ELE/Q7305,PLC Assembly Operator,3
+8212.2003,ELE/Q7301,UPS Assembly Operator,3
+8212.2101,ELE/Q0114,Final Assembly Operator-Magnetics,3
+8212.2201,ELE/Q7801,Assembly Operator – PMD and X-Ray,4
+8212.2202,ELE/Q7802,Box Assembly Operator,4
+8212.2301,ELE/Q5802,Module Soldering Operator,4
+8212.2302,ELE/Q5801,Module Assembly Technician,4
+8212.2401,ELE/Q6301,Electrical Technician,3
+8212.2501,ELE/Q2101,Inner Layer and Pressing Operator,4
+8212.2502,ELE/Q2102,Drilling Operator,4
+8212.2503,ELE/Q2103,Routing Operator,4
+8212.2504,ELE/Q2301,Solder Masking & Legend Printing Operator,3
+8212.2601,ELE/Q6303,Electronic Sub- Assembly Technician,4
+8212.2701,ELE/Q7804,PCB Assembly Operator,4
+8212.9900,ISC/Q0006,Locomotive Driver,4
+8312.0100,ASC/Q9713,Auto Rickshaw Driver,4
+8321.0200,ASC/Q9710,Two Wheeler Delivery Associate,3
+8321.9900,ASC/Q9711,Chauffer Level 5,5
+8322.0102,ASC/Q9712,Chauffer Level 4,4
+8322.0201,ASC/Q9705,Taxi Driver,4
+8322.0301,ASC/Q9706,Ambulance Driver,4
+8322.0501,ASC/Q9702,Light Motor Vehicle Driver Level 3,3
+8322.9900,ASC/Q9703,Commercial Vehicle Driver-Level 4,4
+8331.0302,ASC/Q9702,Commercial Vehicle Driver-Level 3,3
+8331.0400,ASC/Q8402,Test Driver,5
+8331.0600,AGR/Q0401,Tractor Operator,4
+8341.0200,AGR/Q1002,Harvesting Machine Operator,4
+8341.0300,ISC/Q0003,Dumper Operator,3
+8342.1300,ISC/Q0004,Excavator Operator,3
+8342.2101,ISC/Q0015,Mobile Equipment Operator,3
+8342.2201,ISC/Q1101,Stoking Car Operator Ferro Alloys,3
+8342.9900,ISC/Q0007,EOT Crane Operator,3
+8343.0600,ASC/Q9707,Fork Lift Operator/Driver,4
+8344.9900,ASC/Q1101,Washer,2
+9122.0301,ASC/Q9701,Driving Assistant,2
+9122.9900,MIN/Q0408,Mazdoor/Helper,1
+9311.0200,CON/Q0101,Helper Mason,1
+9313.0401,CON/Q0301,Helper Carpenter- Shuttering and Scaffolding,1
+9313.0501,CON/Q0601,Helper Electrician,1
+9313.0601,CON/Q0401,Helper Laboratory and Field Technician,1
+9313.0701,CON/Q0501,Helper Painter and Decorator,1
+9313.9900,G&J/Q7010,Packager and Despatcher,2
+9321.0201,G&J/Q8401,Labeller,3
+9321.0205,G&J/Q1010,Tagger and Labeller,5
+9321.0300,G&J/Q4303,Weigher,2
+9321.1102,G&J/Q4303,Issuing and Return In Charge,2
+9321.1103,ASC/Q1102,Accessory Fitter,4
+9329.0801,ASC/Q6103,Parts Picker Level 3,3
+9331.0100,AGR/Q7802,Warehouse Worker,3
+9333.0202,LSC/Q1110,Loader/Unloader,2
+9333.9900,TEL/Q2400,E Waste Collector,3
+9611.9900,ASC/Q9601,PUC Attendant Level 2,2
+9623.0501,ASC/Q9603,Tyre Inflation Attendant,2
+9623.0601,ASC/Q9602,QCP Attendant,2

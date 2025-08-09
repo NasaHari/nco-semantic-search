@@ -1,27 +1,20 @@
 import pandas as pd
-import pdfplumber
-import os
 
-def extract_from_pdf(pdf_path: str) -> pd.DataFrame:
-    """Extract tables from NCO PDF and structure into DataFrame."""
-    with pdfplumber.open(pdf_path) as pdf:
-        data = []
-        for page in pdf.pages:
-            table = page.extract_table()
-            if table:
-                data.extend(table[1:])  # Skip headers
-    df = pd.DataFrame(data, columns=["Code", "Title", "Description", "Hierarchy"])
-    return df
+def preprocess_and_save(raw_csv_path, processed_csv_path):
+    df = pd.read_csv(raw_csv_path)
 
-def clean_data(df: pd.DataFrame) -> pd.DataFrame:
-    """Clean text: lowercase, remove punctuation, combine fields."""
-    df["text"] = df["Title"] + " " + df["Description"]
-    df["text"] = df["text"].str.lower().str.replace(r'[^\w\s]', '', regex=True)
-    return df
+    # Combine relevant text fields into one 'text' column
+    df['text'] = (
+    df['Unit_Title'].fillna('') + '. ' +
+    df['Unit_Description'].fillna('')).str.lower().str.replace(r'[^\w\s]', '', regex=True)
+    df.to_csv(processed_csv_path, index=False)
+    print(f"Preprocessed data saved to {processed_csv_path}")
 
 if __name__ == "__main__":
-    raw_path = "data/raw/NCO-2015.pdf"  # Adjust as needed
-    df = extract_from_pdf(raw_path)
-    df = clean_data(df)
-    df.to_csv("data/processed/nco_data.csv", index=False)
-    print("Preprocessing complete.")
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--input", type=str, default="data/processed/nco_cleaned.csv")
+    parser.add_argument("--output", type=str, default="data/processed/nco_processed.csv")
+    args = parser.parse_args()
+
+    preprocess_and_save(args.input, args.output)

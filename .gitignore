@@ -28,3 +28,10 @@ embeddings/*
 Thumbs.db
 *.log
 *.tmp
+
+temp.wav
+logs/*
+checkpoints/*
+backup_14_23_aug/*
+__pycache__/*
+*.wa
