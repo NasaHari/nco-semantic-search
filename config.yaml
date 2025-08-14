@@ -1,0 +1,21 @@
+credentials:
+  usernames:
+    harikrishnan123:
+      email: harikrishnan@example.com
+      first_name: Harikrishnan
+      last_name: N
+      password: admin123
+    guest1:
+      email: arjun.kumar@example.com
+      first_name: Arjun
+      last_name: Kumar
+      password: guest123
+    guest2:
+      email: neha.singh@example.com
+      first_name: Neha
+      last_name: Singh
+      password: guest456
+cookie:
+  name: nco_auth_cookie
+  key: "some_long_random_secret_key_for_prod"
+  expiry_days: 30
