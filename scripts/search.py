@@ -10,6 +10,9 @@ from collections import defaultdict
 import json
 from rapidfuzz import fuzz
 from sklearn.metrics.pairwise import cosine_similarity
+from .preprocess import  preprocess_and_save
+from .index  import build_faiss_index
+from .embed import   *
 
 MODEL_ALIASES = {
     "vya": "krutrim-ai-labs/Vyakyarth",
@@ -35,12 +38,12 @@ class NCOSearcher:
         if index_path is None:
             index_path = f"embeddings/nco_index_{safe_model}.faiss"
 
-        if not all(map(os.path.exists, [embeddings_path, index_path, data_csv])):
-            raise FileNotFoundError(
-                f"Missing files for model '{model_name}'. "
-                f"Expected:\n  {embeddings_path}\n  {index_path}\n  {data_csv}"
-            )
+        if not os.path.exists(embeddings_path):
+               generate_embeddings(data_csv, embeddings_path, model_name)
+        if not os.path.exists(index_path):
+            build_faiss_index(model_name)
 
+        preprocess_and_save(data_csv)
         if model_name not in _loaded_searchers:
             print(f"[Search] Loading SentenceTransformer model: {model_name}")
             self.model = SentenceTransformer(model_name)

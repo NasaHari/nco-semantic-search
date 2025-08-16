@@ -24,6 +24,8 @@ import yaml
 from yaml.loader import SafeLoader
 from pydub import AudioSegment
 import io
+from pathlib import Path
+
 with open('./config.yaml') as file:
     config = yaml.load(file, Loader=SafeLoader)
 
@@ -50,17 +52,29 @@ elif st.session_state.get('authentication_status') is None:
     st.stop()
 
 
+def ensure_log_file(file_path, headers):
+    path = Path(file_path)
+    if not path.exists():
+        path.parent.mkdir(parents=True, exist_ok=True)  # Create directories if needed
+        with open(path, "w", newline="", encoding="utf-8") as f:
+            writer = csv.writer(f)
+            writer.writerow(headers)
 
+# Logging search
 def log_search(query, results, user_id="anonymous"):
+    ensure_log_file(SEARCH_LOG_FILE, ["timestamp", "user_id", "query", "top_codes"])
     top_codes = [r["Unit_Code"] for r in results] if results else []
     with open(SEARCH_LOG_FILE, "a", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
         writer.writerow([datetime.now().isoformat(), user_id, query, "|".join(top_codes)])
 
+# Logging admin actions
 def log_admin_action(user_id, action, details=""):
+    ensure_log_file(ADMIN_LOG_FILE, ["timestamp", "user_id", "action", "details"])
     with open(ADMIN_LOG_FILE, "a", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
         writer.writerow([datetime.now().isoformat(), user_id, action, details])
+
 
 current_user = st.session_state.get("name")
 
@@ -70,7 +84,7 @@ ADMIN_LOG_FILE = "logs/admin_actions_log.csv"
 @st.cache_resource
 def load_all_models():
     model_names = [
-        "lbs",  # Alias for "krutrim-ai-labs/Vyakyarth"
+        "lbs",  #
         "min" # Alias for "sentence-transformers/all-MiniLM-L6-v2"
     ]
     
@@ -135,7 +149,6 @@ with col_text:
     query = st.text_input(
     "Enter job description or speak:",
     key="query",
-    value=query_value,
     on_change=do_search
 )   
     if st.button("Search") :
