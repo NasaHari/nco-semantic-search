@@ -4,7 +4,7 @@
 This Proof-of-Concept (PoC) implements an AI-driven semantic search for the National Classification of Occupation (NCO-2015). It ingests NCO data, generates embeddings using Sentence Transformers, indexes with FAISS, and provides a Streamlit UI for querying occupations semantically (e.g., "sewing machine operator" matches relevant codes with confidence scores).
 
 Built for STATATHON PS-5. Key features: Data preprocessing, embedding generation, fast similarity search, and basic UI.
-
+worksession.ipynb was sued to extract the dataset 
 ## Setup
 1. Clone the repo: `git clone https://github.com/NasaHari/nco-semantic-search.git`.
 2. Create a vitual envinroment 
