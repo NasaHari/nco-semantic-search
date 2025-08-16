@@ -10,6 +10,7 @@ Built for STATATHON PS-5. Key features: Data preprocessing, embedding generation
 2. Create a vitual envinroment 
 3. Activate the env,inside the env
 4. Install dependencies: `pip install -r requirements.txt`.
+5. Optional Doanlaod the embeddings `python scripts/download-embed.poy`
 5. Launch app: `streamlit run app/app.py`.
 
 ## Usage
