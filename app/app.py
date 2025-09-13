@@ -3,6 +3,7 @@ import streamlit as st
 import sys
 import os
 from langdetect import detect
+import time 
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from scripts.search import NCOSearcher
@@ -12,7 +13,7 @@ import streamlit as st
 import pandas as pd
 import json
 import os
-from scripts.search import NCOSearcher, load_all_searchers, MODEL_ALIASES,ensemble_search
+from scripts.search import NCOSearcher, load_all_searchers, MODEL_ALIASES
 import subprocess
 import csv
 from datetime import datetime
@@ -63,7 +64,8 @@ def ensure_log_file(file_path, headers):
 # Logging search
 def log_search(query, results, user_id="anonymous"):
     ensure_log_file(SEARCH_LOG_FILE, ["timestamp", "user_id", "query", "top_codes"])
-    top_codes = [r["Unit_Code"] for r in results] if results else []
+    # Extract codes, convert each to string
+    top_codes = [str(r["Unit_Code"]) for r in results] if results else []
     with open(SEARCH_LOG_FILE, "a", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
         writer.writerow([datetime.now().isoformat(), user_id, query, "|".join(top_codes)])
@@ -84,8 +86,8 @@ ADMIN_LOG_FILE = "logs/admin_actions_log.csv"
 @st.cache_resource
 def load_all_models():
     model_names = [
-        "lbs",  #
-        "min" # Alias for "sentence-transformers/all-MiniLM-L6-v2"
+        "sml",  #
+        "min" # Alias for "/home/harikrishnan/Coding/Statathon/nco-semantic-search/models/finetunedenglishmodel"
     ]
     
     # Get full model names using aliases
@@ -127,7 +129,6 @@ def transcribe_audio(file_path, language_code):
 searcher = st.session_state.searcher
 
 st.title("NCO Semantic Search")
-use_ensemble =False
 
 # --- Search UI ---
 
@@ -187,19 +188,23 @@ INDIC_LANGS = {"hi", "ta", "te", "kn", "ml", "bn", "mr"}
 
 if st.session_state.search_triggered and st.session_state.query.strip():
     with st.spinner("Searching..."):
-        if use_ensemble:
-           # Use the new ensemble_search function
-            results, fallback_suggestions = ensemble_search(st.session_state.searcher, st.session_state.query, top_k=10)
-            subheader_text = "Top matches (Ensemble)"
+        start_time = time.time()
+
+        detected_lang = detect(st.session_state.query)
+        print(detected_lang)
+        if len(st.session_state.query.split()) > 4:
+            use_synonyms = True   # long, descriptive query → expand synonyms
         else:
-            detected_lang = detect(st.session_state.query)
-            print(detected_lang)
-            if detected_lang in INDIC_LANGS:
-                 results, fallback_suggestions= st.session_state.searcher[MODEL_ALIASES['lbs']].search(st.session_state.query, top_k=10,use_synonyms=1)
-            else:
-                 results, fallback_suggestions= st.session_state.searcher[MODEL_ALIASES['min']].search(st.session_state.query, top_k=10,use_synonyms=1)
-        
+            use_synonyms = False  # short, exact query → skip synonyms
+
+        if detected_lang in INDIC_LANGS:
+                results, fallback_suggestions= st.session_state.searcher[MODEL_ALIASES['sml']].search(st.session_state.query, top_k=10,use_synonyms=False)
+        else:
+                results, fallback_suggestions= st.session_state.searcher[MODEL_ALIASES['min']].search(st.session_state.query, top_k=10,use_synonyms=0)
     
+        end_time = time.time()
+        latency = end_time - start_time
+
         if not results:
             st.warning("No results found.")
             if fallback_suggestions:
@@ -212,15 +217,16 @@ if st.session_state.search_triggered and st.session_state.query.strip():
         else:
             log_search(st.session_state.query, results)
 
-            st.subheader(f"Top {len(results)} matches:")
+            st.subheader(f"Top {len(results)} matches: found in {latency} seconds:")
 
             if "selected_result" not in st.session_state:
                 st.session_state.selected_result = None
-
+            print(f"Query::: {st.session_state.query} in  {latency:.2f} seconds:")
             for i, res in enumerate(results, 1):
                 with st.expander(f"{i}. {res['Title']} (Code: {res['Unit_Code']}) — Score: {res['Score']:.2f}"):
                     st.write(f"**Unit Code:** `{res['Unit_Code']}`")
                     st.write(f"**Title:** {res['Title']}")
+                    print(f"{res['Title']} score={res['Score']:.2f} ")
                     st.write(f"**Confidence Score:** {res['Score']:.2f}")
                     st.write(res["Description"])
 

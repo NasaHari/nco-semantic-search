@@ -8,7 +8,7 @@ import re
 import unicodedata
 
 # Load the CSV
-df = pd.read_csv('/home/harikrishnan/Statathon/nco-semantic-search/data/processed/nco_cleaned.csv')
+df = pd.read_csv('./data/processed/nco_cleaned.csv')
 
 # List the text columns you want to normalize
 text_columns = [

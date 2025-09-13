@@ -9,8 +9,8 @@ from langdetect import detect
 MODEL_ALIASES = {
     "vya": "krutrim-ai-labs/Vyakyarth",
     "l3c": "l3cube-pune/indic-sentence-similarity-sbert",
-    "min": "sentence-transformers/all-MiniLM-L6-v2",
-    "mpn": "sentence-transformers/all-mpnet-base-v2"
+    "min": "/home/harikrishnan/Coding/Statathon/nco-semantic-search/models/finetunedenglishmodel",
+"mino":'sentence-transformers/all-MiniLM-L6-v2',    "mpn": "sentence-transformers/all-mpnet-base-v2"
 }
 
 # Global cache of preloaded searchers (models)

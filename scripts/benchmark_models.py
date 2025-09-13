@@ -9,7 +9,7 @@ from typing import Dict, List
 # --- MODEL CONFIG ---
 MODEL_ALIASES = {
    # "vya": ("krutrim-ai-labs/Vyakyarth", "embeddings/nco_index_krutrim-ai-labs_Vyakyarth.faiss", "embeddings/nco_embeddings_krutrim-ai-labs_Vyakyarth.npy"),
-    "min": ("sentence-transformers/all-MiniLM-L6-v2", "embeddings/nco_index_sentence-transformers_all-MiniLM-L6-v2.faiss", "embeddings/nco_embeddings_sentence-transformers_all-MiniLM-L6-v2.npy"),
+    "min": ("/home/harikrishnan/Coding/Statathon/nco-semantic-search/models/finetunedenglishmodel", "embeddings/nco_index_sentence-transformers_all-MiniLM-L6-v2.faiss", "embeddings/nco_embeddings_sentence-transformers_all-MiniLM-L6-v2.npy"),
     "lbs": ("sentence-transformers/LaBSE","embeddings/nco_index_sentence-transformers_LaBSE.faiss"," embeddings/nco_embeddings_sentence-transformers_LaBSE.npy")
 
 }
