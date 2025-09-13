@@ -12,7 +12,7 @@ venv/
 .venv/
 env/
 .env
-.models/
+models/
 # VS Code
 .vscode/
 *.code-workspace
